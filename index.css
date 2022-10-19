@@ -11,8 +11,10 @@ div {
       border-radius: 20px;
       text-align: center;
 }
-
-
+ 
+.profile p {
+    font-size: 22px;
+}
 
 .profile img {
     border: solid 3px green;
@@ -25,23 +27,30 @@ div {
     background-image: 50%;
     width: 348px;
     height: 292px;
-    
+    text-align: center;
+}
+
+h2 {position: relative;
+        top: 15px;
+        right: 80px    
 
 }
+
+
+
 
 .links {
     width: 348px;
     height: 348px;
     
-   
 }
 
-ul { list-style: none;
-     padding-top: 13%;
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
-     gap:25px ;}
+.links ul { list-style: none;
+            padding-top: 13%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap:25px ;}
 
 .tech {
     width: 348px;
@@ -55,20 +64,23 @@ main {
       
 }
 
+.experience ul {    
+                font-size: small;
+                padding-top: 30px;
+                margin-left: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                    
+                    }
 
-dt { padding: 15px;
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
-     size: 14px;
-     font-weight: bold;
-
+.experience p {
+    color: rgb(191, 196, 196);
 }
 
-
-.experience {
-    width: 348px;
-    height: 349px;
+.experience {list-style: circle;
+             width: 348px;
+             height: 349px;
 }
 
 .education {
