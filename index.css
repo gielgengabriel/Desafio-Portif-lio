@@ -13,7 +13,6 @@ div {
 }
  
 .profile p {
-    font-family: ;
     font-size: 22px;
 }
 
@@ -129,11 +128,3 @@ main {
     left: 425px;
     top: 488px;
 }
-
-/*.elements-right {
-    position: relative;
-    left: 400px;
-    bottom: 268vh;
-    
-}*/
-
